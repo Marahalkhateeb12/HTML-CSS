@@ -1,0 +1,23 @@
+h1{
+    background-color: red;
+}
+p{
+    font-weight: bold;
+
+} 
+#div1{
+    color: red;
+    text-align: left;
+    width: 300px;
+    height: 400px;
+    background-image: url('images/pokemon.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+}
+#div2{
+   text-transform: capitalize; 
+   margin-top: 50px;
+}
+a{
+    text-transform: capitalize;
+}  
