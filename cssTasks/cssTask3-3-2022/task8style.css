@@ -1,0 +1,27 @@
+h1{
+    text-decoration: underline; 
+}
+#blue{
+    color: blue;
+}
+ .orange{
+     color: orange;
+ }
+ span{
+     font-weight: 900;
+ }
+ .red{
+     color: red;
+ }
+ #a{
+     font-weight: 900;
+ }
+ #ul{
+     color: blue;
+ }
+ #li{
+    font-weight: 900;
+ }
+ #none{
+    list-style-type:none;
+ }
