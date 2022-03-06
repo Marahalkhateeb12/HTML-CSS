@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task #5</title>
+    <style>
+        body{
+            display: flex;
+           
+        }
+        .rec{
+            background-color: black;
+            width: 40px;
+            height: 100px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+        }
+        .circle{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 2px gray;
+            background-color: gray;
+        }
+        .red{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            animation: redLight 15s 3;
+            animation-duration: 5s;
+        }
+        .yellow{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            animation: yellowlight 15s 3 ;
+           animation-duration: 5s;
+        }
+        .green{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            animation: greenLight 15s 3;
+            animation-duration: 5s;
+        }
+        @keyframes redLight{
+            25%{background-color: gray;}
+            60%{background-color: red;}
+        }
+        @keyframes yellowlight{
+            60%{background-color: gray;}
+            100%{background-color: yellow;}
+        }
+        @keyframes greenLight{
+            0%{background-color: gray;}
+            25%{background-color: green;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="rec">
+        <div class="circle"><div class="red"></div></div>
+        <div class="circle"><div class="yellow"></div></div>
+        <div class="circle"><div class="green"></div></div>
+    </div>
+</body>
+</html>
