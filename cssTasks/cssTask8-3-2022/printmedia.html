@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <style>
+        #d1{
+            display: flex;
+            flex-direction: column;
+
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        @media print{
+           img{
+               width: 0px;
+               height: 0px;
+           } 
+           #d1{
+               color: red;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <img src="images/horse.jpg">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sed iure molestiae aut quod ex aliquid illum architecto perferendis distinctio, dolorum dignissimos enim doloribus laboriosam dolorem iusto at voluptatum eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aliquam quidem ad quibusdam numquam ipsam iusto magnam fuga minus quis sunt, molestiae voluptatibus suscipit nobis sed optio, natus repellat nisi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatibus repellat quod saepe excepturi non cupiditate, enim reiciendis nostrum? Natus at iusto quaerat nihil fuga provident autem, rerum dolore omnis.</p>
+    </div>
+</body>
+</html>
